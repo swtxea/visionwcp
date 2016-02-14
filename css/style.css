@@ -403,8 +403,8 @@ footer {
     width: 100%;
   }
 
-  .star-l,
-  .star-r,
+  .stars-l,
+  .stars-r,
   .stars {
     display: none;
   }
@@ -429,6 +429,21 @@ footer {
   }
   
 }
+
+@media (max-width: 550px) {
+  .nav-section a {
+    padding: 10px 10px;
+    font-size: .75em
+  }
+}
+
+@media (max-width: 375px) {
+  .nav-section a {
+    padding: 10px 0px;
+    font-size: .75em
+  }
+}
+
 
 /*Pseudo Classes*/
 
