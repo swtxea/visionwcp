@@ -379,18 +379,50 @@ footer {
 }
 
 /*Media Queries*/
-@media (max-width: 1024px) {
-  
+@media (max-width: 768px) {
+  .primary-content,
+  .secondary-content {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
   }
 
+  .col-l {
+    width: 100%;
+    float: none;
+    border-right: none;
+  }
 
-}
+  .col-r {
+    width: 100%;
+    float: none;
+  }
 
-@media (max-width: 768px) {
-  
+  .block-l,
+  .block-r {
+    width: 100%;
+  }
+
+  .star-l,
+  .star-r,
+  .stars {
+    display: none;
+  }
+
+  .star-m {
+    display: inline-block;
+    margin: 0 10px;
+    height: 20px;
+    width: 80px;
+    background: url('../img/five-stars.png') no-repeat;
+    background-size: contain;
+    clear: both;
+    float: right;
+  }
+
   h1 {
-    font-size: .5em;
-    line-height: .5;
+    font-size: 2rem;
+    line-height: 1.1;
   }
   h2 {
     font-size: 1.5rem;
